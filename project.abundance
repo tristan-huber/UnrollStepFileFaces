@@ -474,11 +474,6 @@
   ],
   "allConnectors": [
     {
-      "ap2Name": "number or geometry",
-      "ap1ID": "id-44",
-      "ap2ID": "id-2"
-    },
-    {
       "ap2Name": "geometry",
       "ap1ID": "id-44",
       "ap2ID": "id-74"
@@ -487,6 +482,11 @@
       "ap2Name": "Face",
       "ap1ID": "id-6",
       "ap2ID": "id-110"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-6",
+      "ap2ID": "id-2"
     },
     {
       "ap2Name": "toUnroll",
