@@ -6,7 +6,7 @@
   "name": "UnrollStepFileFaces",
   "ioValues": [
     {
-      "name": "Input",
+      "name": "Form",
       "ioValue": "__GEOMETRY_INPUT__"
     }
   ],
@@ -427,6 +427,7 @@
       "x": 0.0231,
       "y": 0.5,
       "uniqueID": "id-6",
+      "name": "Form",
       "type": "import",
       "options": [],
       "fileName": "kayak_v2.step",
