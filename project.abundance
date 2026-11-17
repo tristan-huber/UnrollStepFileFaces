@@ -83,7 +83,6 @@
           "options": [],
           "selectedFaceData": {
             "0": [
-              11,
               12
             ]
           }
@@ -204,15 +203,16 @@
         },
         {
           "name": "unrollTogether",
-          "ioValue": true
+          "ioValue": false
         },
         {
           "name": "meshTolerance",
-          "ioValue": 0.01
+          "ioValue": 0.1
         },
         {
           "name": "compressiveFraction",
-          "ioValue": 0.02
+          "ioValue": 0.02,
+          "currentEquation": "0.02"
         },
         {
           "name": "tensileFraction",
@@ -245,11 +245,11 @@
             },
             {
               "name": "tolerance",
-              "ioValue": 0.01
+              "ioValue": 0.1
             },
             {
               "name": "asSingular",
-              "ioValue": true
+              "ioValue": false
             },
             {
               "name": "maxTensileStrain",
@@ -437,8 +437,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.5241,
-      "y": 0.3486,
+      "x": 0.4831,
+      "y": 0.3971,
       "uniqueID": "id-68",
       "ioValues": [
         {
@@ -471,8 +471,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.5169,
-      "y": 0.7314,
+      "x": 0.5208,
+      "y": 0.7371,
       "uniqueID": "id-74",
       "ioValues": [
         {
