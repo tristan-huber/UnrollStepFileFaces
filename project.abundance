@@ -14,9 +14,9 @@
   "allAtoms": [
     {
       "atomType": "GitHubMolecule",
-      "x": 0.3392,
-      "y": 0.2429,
-      "uniqueID": "id-16",
+      "x": 0.3372,
+      "y": 0.3257,
+      "uniqueID": "id-110",
       "name": "crv.Unroll",
       "ioValues": [
         {
@@ -38,7 +38,7 @@
           "atomType": "Output",
           "x": 0.98,
           "y": 0.5,
-          "uniqueID": "id-10",
+          "uniqueID": "id-104",
           "ioValues": [
             {
               "name": "number or geometry",
@@ -50,7 +50,7 @@
           "atomType": "Code",
           "x": 0.4629,
           "y": 0.3486,
-          "uniqueID": "id-11",
+          "uniqueID": "id-105",
           "ioValues": [
             {
               "name": "surface",
@@ -77,13 +77,14 @@
           "atomType": "Input",
           "x": 0.0231,
           "y": 0.14,
-          "uniqueID": "id-12",
+          "uniqueID": "id-106",
           "name": "Face",
           "type": "faceselect",
           "options": [],
           "selectedFaceData": {
             "0": [
-              15
+              11,
+              12
             ]
           }
         },
@@ -91,7 +92,7 @@
           "atomType": "Input",
           "x": 0.0231,
           "y": 0.224,
-          "uniqueID": "id-13",
+          "uniqueID": "id-107",
           "name": "NumRulings",
           "options": []
         },
@@ -99,7 +100,7 @@
           "atomType": "Input",
           "x": 0.0231,
           "y": 0.308,
-          "uniqueID": "id-14",
+          "uniqueID": "id-108",
           "name": "StartFromEdge",
           "options": []
         },
@@ -107,7 +108,7 @@
           "atomType": "Code",
           "x": 0.4284,
           "y": 0.7257,
-          "uniqueID": "id-15",
+          "uniqueID": "id-109",
           "ioValues": [
             {
               "name": "shapeBlahBlah",
@@ -126,23 +127,23 @@
       "allConnectors": [
         {
           "ap2Name": "number or geometry",
-          "ap1ID": "id-11",
-          "ap2ID": "id-10"
+          "ap1ID": "id-105",
+          "ap2ID": "id-104"
         },
         {
           "ap2Name": "surface",
-          "ap1ID": "id-12",
-          "ap2ID": "id-11"
+          "ap1ID": "id-106",
+          "ap2ID": "id-105"
         },
         {
           "ap2Name": "numRulings",
-          "ap1ID": "id-13",
-          "ap2ID": "id-11"
+          "ap1ID": "id-107",
+          "ap2ID": "id-105"
         },
         {
           "ap2Name": "primaryEdgeIndex",
-          "ap1ID": "id-14",
-          "ap2ID": "id-11"
+          "ap1ID": "id-108",
+          "ap2ID": "id-105"
         }
       ],
       "parentRepo": {
@@ -176,7 +177,7 @@
       "unitsKey": "Unitless",
       "fileTypeVersion": 1,
       "scaleToProjectUnits": true,
-      "lastReloadedFromGithubAt": 1794944502307
+      "lastReloadedFromGithubAt": 1794944849771
     },
     {
       "atomType": "Output",
@@ -192,8 +193,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.3301,
-      "y": 0.7829,
+      "x": 0.3379,
+      "y": 0.7657,
       "uniqueID": "id-44",
       "name": "crv.MeshUnroll",
       "ioValues": [
@@ -273,14 +274,8 @@
           "options": [],
           "selectedFaceData": {
             "0": [
-              15,
               11,
-              13,
-              9,
-              7,
-              17,
-              5,
-              4
+              12
             ]
           }
         },
@@ -429,13 +424,13 @@
     {
       "atomType": "Input",
       "x": 0.0231,
-      "y": 0.4086,
+      "y": 0.5,
       "uniqueID": "id-6",
       "type": "import",
       "options": [],
-      "fileName": "boatform.stl",
-      "fileSha": "0dba4b635cd131ad61d4d9b79b84c2bf50045795",
-      "fileType": "STL",
+      "fileName": "kayak_v2.step",
+      "fileSha": "ce5461cc206f7ef4c41de725bec6de195e040e7d",
+      "fileType": "STEP",
       "repoOwner": "tristan-huber",
       "repoName": "UnrollStepFileFaces",
       "SVGwidth": 10
@@ -512,8 +507,13 @@
   "allConnectors": [
     {
       "ap2Name": "geometry",
-      "ap1ID": "id-16",
+      "ap1ID": "id-110",
       "ap2ID": "id-68"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-44",
+      "ap2ID": "id-2"
     },
     {
       "ap2Name": "geometry",
@@ -523,7 +523,7 @@
     {
       "ap2Name": "Face",
       "ap1ID": "id-6",
-      "ap2ID": "id-16"
+      "ap2ID": "id-110"
     },
     {
       "ap2Name": "toUnroll",
