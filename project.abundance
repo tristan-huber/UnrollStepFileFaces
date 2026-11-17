@@ -83,7 +83,8 @@
           "options": [],
           "selectedFaceData": {
             "0": [
-              12
+              12,
+              11
             ]
           }
         },
@@ -437,40 +438,6 @@
     },
     {
       "atomType": "Export",
-      "x": 0.4831,
-      "y": 0.3971,
-      "uniqueID": "id-68",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "File Type",
-          "ioValue": "SVG",
-          "currentEquation": "SVG"
-        },
-        {
-          "name": "Resolution (dpi)",
-          "ioValue": 96
-        },
-        {
-          "name": "STL Tolerance",
-          "ioValue": 0.002
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "UnrolledByRulingLines",
-          "currentEquation": "UnrolledByRulingLines"
-        }
-      ],
-      "type": "SVG",
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "UnrolledByRulingLines"
-    },
-    {
-      "atomType": "Export",
       "x": 0.5208,
       "y": 0.7371,
       "uniqueID": "id-74",
@@ -505,11 +472,6 @@
     }
   ],
   "allConnectors": [
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-110",
-      "ap2ID": "id-68"
-    },
     {
       "ap2Name": "number or geometry",
       "ap1ID": "id-44",
